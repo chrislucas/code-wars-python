@@ -1,5 +1,6 @@
 # https://www.codewars.com/kata/number-of-trailing-zeros-of-n/train/python
 # https://brilliant.org/wiki/trailing-number-of-zeros/
+# DONE
 def fn(n):
     acc = 0
     i = 5
