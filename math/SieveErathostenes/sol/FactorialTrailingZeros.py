@@ -4,14 +4,13 @@
 def fn(n):
     acc = 0
     i = 5
-    while n//i >= 1:
-        acc += n//i
+    while n // i >= 1:
+        acc += n // i
         i *= 5
     return acc
 
 
-print(fn(12))
-
+print(fn(1200))
 
 if __name__ == "__main__":
     pass
