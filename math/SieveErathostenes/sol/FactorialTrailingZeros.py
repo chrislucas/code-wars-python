@@ -1,6 +1,6 @@
 # https://www.codewars.com/kata/number-of-trailing-zeros-of-n/train/python
 # https://brilliant.org/wiki/trailing-number-of-zeros/
-
+# DONE
 def fn(n):
     acc = 0
     i = 5
@@ -10,7 +10,7 @@ def fn(n):
     return acc
 
 
-print(fn(12))
+print(fn(1200))
 
 if __name__ == "__main__":
     pass
