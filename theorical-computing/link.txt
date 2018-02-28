@@ -1,0 +1,9 @@
+https://www.codewars.com/kata/latest/my-languages?tags=Theoretical%20Computer%20Science
+
+
+problemas interessantes
+https://www.codewars.com/kata/at-validate-args
+https://www.codewars.com/kata/ackermann-function
+https://www.codewars.com/kata/greatest-common-divisor
+https://www.codewars.com/kata/factorial-factory
+https://www.codewars.com/kata/fun-with-trees-max-sum
