@@ -1,2 +1,12 @@
 Google tutorial python
 https://developers.google.com/edu/python/regular-expressions
+
+
+Problemas
+https://www.codewars.com/kata/the-observed-pin/train/python
+https://www.codewars.com/kata/recover-a-secret-string-from-random-triplets/train/python
+
+
+https://www.codewars.com/kata/search/my-languages?q=Rot13&beta=false
+
+https://www.codewars.com/kata/perimeter-of-squares-in-a-rectangle
