@@ -81,6 +81,7 @@ print(solution("MLXVIII"))  # 1068
 print(solution("MCCCLXVI"))  # 1366
 print(solution("MCDXLIX"))  # 1449
 print(solution("MDCCCLXXXVIII"))  # 1888
+print(solution("MMXXXIX"))  # 2039
 
 if __name__ == '__main__':
     pass
