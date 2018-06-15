@@ -1,0 +1,11 @@
+http://www.codewars.com/kata/path-finder-number-2-shortest-path
+http://www.codewars.com/kata/path-finder-number-3-the-alpinist
+http://www.codewars.com/kata/shortest-knight-path
+http://www.codewars.com/kata/path-finder-number-1-can-you-reach-the-exit
+http://www.codewars.com/kata/shortest-path-in-perfect-city
+
+
+Beta
+http://www.codewars.com/kata/knights-attack
+http://www.codewars.com/kata/dynamic-programming-number-1-shortest-path-in-a-weighted-dag
+http://www.codewars.com/kata/which-path-is-the-shortest
