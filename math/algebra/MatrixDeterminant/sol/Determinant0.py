@@ -29,21 +29,6 @@ def det22(matrix):
     return matrix[0][0] * matrix[1][1] - matrix[0][1] * matrix[1][0]
 
 
-# determinante matrix NxN
-def det_nxn(matrix):
-    # sempre vou escolher a primeira coluna
-    '''
-    first_column = [0] * len(matrix[0])
-    # copiando a primeira coluna da matriz
-    for x in range(0, len(first_column)):
-        first_column[x] = matrix[x][0]
-    '''
-    first_column = matrix[0][0:len(matrix[0])]
-    for x in range(0, len(first_column)):
-        continue
-    return 0
-
-
 idx = 0
 matrix_2x2 = [
     [[1, 10], [5, -1]]
@@ -97,7 +82,6 @@ matrix_nxn = [
 ]
 print(det22(matrix_2x2[idx]))
 print(det33(matrix_3x3[3]))
-print(det_nxn(matrix_nxn[0]))
 
 if __name__ == '__main__':
     pass

@@ -1,0 +1,2 @@
+http://www.codewars.com/kata/master-your-primes-sieve-with-memoization/python
+http://www.codewars.com/kata/59c5d0b0a25c8c99ca000237/train/swift

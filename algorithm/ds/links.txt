@@ -1,1 +1,5 @@
+https://www.codewars.com/kata/find-an-area
+http://www.codewars.com/kata/fun-with-trees-array-to-tree
+https://www.codewars.com/kata/path-finder-number-2-shortest-path
 http://www.codewars.com/kata/binary-search-tree-validation/python
+

@@ -88,12 +88,18 @@ matrix = [
     , [[1, 3], [2, 5]]
     , [[2, 5, 3], [1, -2, -1], [1, 3, 4]]
     , [
-          [20, 5, 3, 1, 2, 3]
+        [20, 5, 3, 1, 2, 3]
         , [1, 2, -1, 1, 3, 7]
         , [1, 3, 4, 7, 5, 6]
         , [1, -2, -1, 1, 3, 70]
         , [2, 5, 3, 1, 2, 3]
         , [1, 3, 5, 6, 7, 8]
+    ]
+    , [
+        [1, 2, 3, 4]
+        , [1, 0, 2, 0]
+        , [0, 1, 2, 3]
+        , [2, 3, 0, 0]
     ]
 ]
 
@@ -105,7 +111,8 @@ matrix = [
 # print(laplace_nxn(matrix[5], len(matrix[5][0]), 0))
 # print(laplace_nxn(matrix[6], len(matrix[6][0]), 0))
 # print(laplace_nxn(matrix[7], len(matrix[7][0]), 0))
-print(laplace_nxn(matrix[8], len(matrix[8][0]), 0))
+# print(laplace_nxn(matrix[8], len(matrix[8][0]), 0))
+print(laplace_nxn(matrix[9], len(matrix[9][0]), 0))
 
 if __name__ == '__main__':
     pass

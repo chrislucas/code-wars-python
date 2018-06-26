@@ -1,0 +1,4 @@
+http://www.codewars.com/kata/permutations/train/python
+http://www.codewars.com/kata/permutations-1
+http://www.codewars.com/kata/permutation-position
+http://www.codewars.com/kata/58223370aef9fc03fd000071/train/swift

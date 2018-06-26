@@ -1,0 +1,2 @@
+https://www.codewars.com/kata/search/my-languages?q=LINEAR+ALGEBRA&beta=false
+https://www.codewars.com/kata/search/my-languages?q=ALGEBRA&beta=false
