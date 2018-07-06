@@ -1,1 +1,10 @@
 https://www.codewars.com/kata/binary-multiple-of-3
+https://www.codewars.com/kata/validate-sudoku-with-size-nxn
+https://www.codewars.com/kata/sudoku-solution-validator
+
+
+http://www.codewars.com/kata/sudoku-solver
+http://www.codewars.com/kata/hard-sudoku-solver
+http://www.codewars.com/kata/validate-sudoku-with-size-nxn
+
+http://www.codewars.com/kata/58b16300a470d47498000811/train/python
