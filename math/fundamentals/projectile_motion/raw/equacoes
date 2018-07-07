@@ -1,0 +1,11 @@
+vertical motion
+velocidade = velocidadeInicial + gravidade * tempo
+v = v0 + gt
+y = y0 + v0*t + 0.5 * g * t^2
+v^2 = (v0)^2 + 2a(y-y0)
+
+
+Horizontal Motion
+v = v0 + at -> a = -g
+x = x0 + v0 * t + 0.5*a*(t^2)
+v^2 = (v0)^2 + 2a(x-x0)

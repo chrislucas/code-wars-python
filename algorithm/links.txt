@@ -1,2 +1,10 @@
 http://www.codewars.com/kata/master-your-primes-sieve-with-memoization/python
 http://www.codewars.com/kata/59c5d0b0a25c8c99ca000237/train/swift
+
+
+https://www.codewars.com/kata/551f23362ff852e2ab000037/train/python
+https://www.codewars.com/kata/5a479247e6be385a41000064/train/python
+http://www.codewars.com/kata/shortest-knight-path
+http://www.codewars.com/kata/compute-a-convex-hull
+http://www.codewars.com/kata/dice-rolls-threshold
+http://www.codewars.com/kata/sums-of-perfect-squares
