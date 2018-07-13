@@ -3,3 +3,30 @@ https://www.geeksforgeeks.org/check-if-two-given-line-segments-intersect/
 https://www.geeksforgeeks.org/orientation-3-ordered-points/
 https://www.geeksforgeeks.org/orientation-3-ordered-points/
 https://www.geeksforgeeks.org/convex-hull-set-1-jarviss-algorithm-or-wrapping/
+
+
+from functools import cmp_to_key
+# sorted(points[1:], key=cmp_to_key(compare))
+# points[1:].sort(key=cmp_to_key(compare))
+
+    '''
+    # <=
+    def __le__(self, other):
+        return compare(other, self)
+
+    # ==
+    def __eq__(self, other):
+        return compare(other, self)
+
+    # !=
+    def __ne__(self, other):
+        return compare(other, self)
+
+    # >
+    def __gt__(self, other):
+        return compare(other, self)
+
+    # >=
+    def __ge__(self, other):
+        return compare(other, self)
+    '''

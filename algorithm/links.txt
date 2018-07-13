@@ -8,3 +8,8 @@ http://www.codewars.com/kata/shortest-knight-path
 http://www.codewars.com/kata/compute-a-convex-hull
 http://www.codewars.com/kata/dice-rolls-threshold
 http://www.codewars.com/kata/sums-of-perfect-squares
+
+
+https://www.codewars.com/kata/next-bigger-number-with-the-same-digits
+https://www.codewars.com/kata/square-into-squares-protect-trees
+https://www.codewars.com/kata/base91-encoding-and-decoding
