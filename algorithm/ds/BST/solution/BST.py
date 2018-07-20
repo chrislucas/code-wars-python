@@ -59,7 +59,6 @@ class BST:
         else:
             return node
 
-
     def delete(self, data):
         self.__delete(self.root, data)
 
@@ -68,6 +67,11 @@ class BST:
             if node.data == data:
                 if node.left and node.right:
                     pass
+            else:
+                if data < node.data:
+                    self.__delete(node.left, data)
+                else:
+                    self.__delete(node.right, data)
 
     def __inorder(self, root):
         if root:
