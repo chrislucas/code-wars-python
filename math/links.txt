@@ -1,1 +1,11 @@
 http://www.codewars.com/kata/58b16300a470d47498000811/train/python
+https://www.codewars.com/kata/infix-to-postfix-converter
+https://www.codewars.com/kata/sums-of-perfect-squares
+
+https://www.codewars.com/kata/bezier-curves
+https://www.codewars.com/kata/bernoulli-numbers-1
+https://www.codewars.com/kata/last-digits-of-n-2-equals-equals-n
+https://www.codewars.com/kata/trailing-zeros-in-factorials-in-any-given-integer-base
+
+https://www.codewars.com/kata/hamming-numbers
+https://www.codewars.com/kata/the-millionth-fibonacci-kata

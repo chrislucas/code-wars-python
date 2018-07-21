@@ -1,3 +1,15 @@
 https://pt.wikipedia.org/wiki/Desvio_padr%C3%A3o
 https://pt.wikipedia.org/wiki/Vari%C3%A2ncia
 http://mundoeducacao.bol.uol.com.br/matematica/variancia-desvio-padrao.htm
+
+
+https://www.codewars.com/kata/dice-roll-d-and-d-number-1
+https://www.codewars.com/kata/probabilities-for-sums-in-rolling-cubic-dice
+https://www.codewars.com/kata/live-and-let-dice-dot-dot-dot-roll
+https://www.codewars.com/kata/flight-incident-probabilities/javascript
+https://www.codewars.com/kata/dice-roll-d-and-d-number-1
+https://www.codewars.com/kata/statistics-in-kata-1-or-case-unfair-dice
+https://www.codewars.com/kata/find-the-most-probable-sum-value-or-values-in-rolling-n-dice-of-n-sides
+https://www.codewars.com/kata/equivalent-dice
+https://www.codewars.com/kata/same-birthday-probability/python
+https://www.codewars.com/kata/n-game-series-probabilities
