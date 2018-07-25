@@ -14,6 +14,9 @@ http://codeforces.com/blog/entry/52587?locale=ru
 Row echelon form
 https://en.wikipedia.org/wiki/Row_echelon_form
 
+Gaussian elimination
+https://en.wikipedia.org/wiki/Gaussian_elimination
+
 Gaussian Elimination
 https://a2oj.com/category?ID=59
 http://www.spoj.com/problems/GS/
@@ -23,3 +26,24 @@ http://acm.timus.ru/problem.aspx?space=1&num=1042
 
 https://www.codechef.com/DEC10/problems/EVENPOLY
 https://www.codechef.com/problems/DETDET
+
+
+Algorithm
+https://www.geeksforgeeks.org/gaussian-elimination/
+http://www.math-cs.gordon.edu/courses/ma342/handouts/gauss.pdf
+http://mathonline.wikidot.com/the-gaussian-elimination-algorithm
+
+
+https://www.maplesoft.com/applications/view.aspx?sid=4863&view=html
+
+Matriz triangular
+https://alunosonline.uol.com.br/matematica/matriz-triangular.html
+
+Systems of Linear Equations: Solving by Gaussian Elimination
+http://www.purplemath.com/modules/systlin6.htm
+
+algoritmo eliminação gaussiana pivoteamento parcial
+https://paginas.fe.up.pt/~ei95022/cns/gauss.c
+https://www.ime.unicamp.br/~marcia/AlgebraLinear/Arquivos%20PDF/algo_eliminacao.pdf
+https://www.ime.unicamp.br/~valle/Teaching/2015/MS211/Aula7.pdf
+http://conteudo.icmc.usp.br/pessoas/andretta/ensino/aulas/sme0500-1-12/pivotamento.pdf
