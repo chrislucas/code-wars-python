@@ -1,0 +1,4 @@
+http://codeforces.com/blog/entry/9703
+https://www.geeksforgeeks.org/lru-cache-implementation/
+https://en.wikipedia.org/wiki/Cache_replacement_policies
+https://medium.com/@joshuawcomeau/weekly-challenge-02-771053cfd380

@@ -2,17 +2,20 @@
 https://www.codewars.com/kata/52d1bd3694d26f8d6e0000d3/train/python
 https://pt.wikipedia.org/wiki/Cifra_de_Vigen%C3%A8re
 https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher
+DONE
 '''
 
 
 class VigenereCipher(object):
+    ENCODE = 'utf8'
+
     def __init__(self, key, alphabet):
         try:
-            self.key = key.decode('utf8')
+            self.key = key.decode(self.ENCODE)
         except:
             self.key = key
         try:
-            self.alphabet = alphabet.decode('utf8')
+            self.alphabet = alphabet.decode(self.ENCODE)
         except:
             self.alphabet = alphabet
 
@@ -31,11 +34,11 @@ class VigenereCipher(object):
             shift %= _len
             for idx in range(0, _len):
                 new_idx = (_len - (shift - idx)) if shift > idx else idx - shift
-                self.table[shift][new_idx] = alphabet[idx]
+                self.table[shift][new_idx] = self.alphabet[idx]
 
     def __default_encode(self, text):
         try:
-            text = text.decode("utf8")
+            text = text.decode(self.ENCODE)
         except:
             pass
         _len_key = len(self.key)
@@ -49,14 +52,14 @@ class VigenereCipher(object):
                 idx_cypher = self._map[self.key[idx_key]]
                 encode_text.append(self.table[idx_cypher][idx_text])
             idx_key = (idx_key + 1) % _len_key
-        return ''.join(encode_text).encode("utf8")
+        return ''.join(encode_text).encode(self.ENCODE)
 
     def encode(self, text):
         return self.__default_encode(text)
 
     def __default_decode(self, text):
         try:
-            text = text.decode("utf8")
+            text = text.decode(self.ENCODE)
         except:
             pass
         _len_key = len(self.key)
@@ -75,7 +78,7 @@ class VigenereCipher(object):
                 if idx_alpha > -1:
                     decode_text.append(self.alphabet[idx_alpha])
             idx_key = (idx_key + 1) % _len_key
-        return ''.join(decode_text).encode('utf8')
+        return ''.join(decode_text).encode(self.ENCODE)
 
     def decode(self, text):
         return self.__default_decode(text)

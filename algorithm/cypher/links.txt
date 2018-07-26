@@ -1,0 +1,2 @@
+https://www.codewars.com/kata/vigenere-autokey-cipher-helper
+https://www.codewars.com/kata/search/python?q=cypher&r%5B%5D=-5&beta=false
