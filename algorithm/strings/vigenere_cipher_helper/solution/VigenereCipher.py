@@ -102,6 +102,8 @@ def test_encode(text, alpha, key):
     return c.encode(text)
 
 
+'''
+
 test("codewars", "abcdefghijklmnopqrstuvwxyz", "password")
 test("attackatdawn", "abcdefghijklmnopqrstuvwxyz", "lemon")
 test("waffles", "abcdefghijklmnopqrstuvwxyz", "password")
@@ -111,18 +113,23 @@ test("\xe3\x82\xab\xe3\x82\xbf\xe3\x82\xab\xe3\x83\x8a", "abcdefghijklmnopqrstuv
 test("my secret code i want to secure", "abcdefghijklmnopqrstuvwxyz", "password")
 test("xt'k o vwixl qzswej!", "abcdefghijklmnopqrstuvwxyz", "password")
 test("it's w ziruw qhaaqs!", "abcdefghijklmnopqrstuvwxyz", "password")
+'''
 
 # test_decode("xt'k s ovzii cahdsi!", "abcdefghijklmnopqrstuvwxyz", "password")
 # test_encode("it's a shift cipher!", "abcdefghijklmnopqrstuvwxyz", "password")
 # test_decode("xt'k o vwixl qzswej!", "abcdefghijklmnopqrstuvwxyz", "password")
 
 
+'''
 test("CODEWARS", "abcdefghijklmnopqrstuvwxyz", "password")
 test("atacar base sul", "abcdefghijklmnopqrstuvwxyz", "limao")
-
 '''
 
-'''
+
+
+for i in test_list_2(10):
+    print(i)
+
 
 if __name__ == '__main__':
     pass
