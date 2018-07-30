@@ -1,1 +1,7 @@
+TODO
 https://www.codewars.com/kata/square-into-squares-protect-trees/train/python
+https://www.codewars.com/kata/prime-number-decompositions
+
+
+DONE
+http://www.codewars.com/kata/the-fibfusc-function-part-2/train/python

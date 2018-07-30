@@ -8,3 +8,5 @@ http://www.codewars.com/kata/hard-sudoku-solver
 http://www.codewars.com/kata/validate-sudoku-with-size-nxn
 
 http://www.codewars.com/kata/58b16300a470d47498000811/train/python
+
+https://www.codewars.com/kata/nim-the-game

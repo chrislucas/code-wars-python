@@ -8,4 +8,13 @@ https://www.codewars.com/kata/last-digits-of-n-2-equals-equals-n
 https://www.codewars.com/kata/trailing-zeros-in-factorials-in-any-given-integer-base
 
 https://www.codewars.com/kata/hamming-numbers
+
+
+https://www.codewars.com/kata/the-fibfusc-function-part-2
+https://www.codewars.com/kata/bernoulli-numbers-1
+https://www.codewars.com/kata/sums-of-perfect-squares/train/python
+https://www.codewars.com/kata/roman-numerals-encoder/train/python
+https://www.codewars.com/kata/array-hyperrectangularity
+https://www.codewars.com/kata/factorial-decomposition/python
+https://www.codewars.com/kata/prime-number-decompositions
 https://www.codewars.com/kata/the-millionth-fibonacci-kata
