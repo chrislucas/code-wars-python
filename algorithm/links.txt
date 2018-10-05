@@ -17,6 +17,7 @@ https://www.codewars.com/kata/base91-encoding-and-decoding
 
 https://www.codewars.com/kata/longest-common-subsequence-performance-version
 https://www.codewars.com/kata/shortest-knight-path
+https://www.codewars.com/kata/5664740e6072d2eebe00001b/train/python
 
 https://www.codewars.com/kata/a-knights-tour
 https://www.codewars.com/kata/simple-maze

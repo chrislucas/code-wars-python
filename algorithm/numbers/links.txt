@@ -1,0 +1,1 @@
+http://www.codewars.com/kata/count-ones-in-a-segment/train/python

@@ -3,3 +3,8 @@ http://www.codewars.com/kata/fun-with-trees-array-to-tree
 https://www.codewars.com/kata/path-finder-number-2-shortest-path
 http://www.codewars.com/kata/binary-search-tree-validation/python
 
+http://www.codewars.com/kata/521c2db8ddc89b9b7a0000c1/train/python
+
+
+http://www.codewars.com/kata/build-a-trie?utm_source=newsletter
+
