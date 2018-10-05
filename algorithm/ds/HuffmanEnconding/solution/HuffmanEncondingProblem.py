@@ -44,6 +44,7 @@ class Node:
     def get_symbol(self):
         return self.symbol
 
+
 # takes: str; returns: [ (str, int) ] (Strings in return value are single characters)
 def frequencies(s):
     freq = {}
