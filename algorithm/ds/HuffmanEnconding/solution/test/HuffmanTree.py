@@ -52,13 +52,13 @@ class HuffmanCode:
         return self.str_encode
 
     def encode(self, _str):
-        self._get_frequency(_str)
+        self._mapping_frequency_chars(_str)
         self._mapping_encode()
         for s in _str:
             self.str_encode += self._map[s]
         return self
 
-    def _get_frequency(self, _str):
+    def _mapping_frequency_chars(self, _str):
         for i in _str:
             self.frequency[i] = self.frequency[i] + 1 if i in self.frequency else 1
         return
@@ -84,17 +84,17 @@ class HuffmanCode:
         while len(p_queue) > 1:
             p = heappop(p_queue)
             q = heappop(p_queue)
-            s = Node('+', p.frequency + q.frequency)
+            s = Node('+', p.get_frequency() + q.get_frequency())
             s.lf = p
             s.ri = q
             heappush(p_queue, s)
         return heappop(p_queue)
 
 
-text = ["Christoffer Lucas Fernandes sanos", "11112311112311123456"]
+text = ["chris.lucas im robot", "11112311112311123456", "abracadabra"]
 
 compress = HuffmanCode()
-encoded = compress.encode(text[0]).get_encode_str()
+encoded = compress.encode(text[1]).get_encode_str()
 
 print(encoded)
 print(compress.decode())
