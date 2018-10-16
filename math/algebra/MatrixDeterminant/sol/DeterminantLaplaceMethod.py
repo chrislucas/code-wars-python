@@ -2,8 +2,8 @@ from copy import deepcopy
 
 
 # determinante matrix NxN
-def laplace_method_cofactor(matrix):
-    mat = deepcopy(matrix)
+def laplace_method_cofactor(_matrix):
+    mat = deepcopy(_matrix)
     if len(mat) == 1:
         return mat[0][0]
     else:
@@ -11,7 +11,7 @@ def laplace_method_cofactor(matrix):
         for k in range(0, len(mat)):
             val = laplace_method_cofactor(reduce_sub_matrix(mat, k))
             # mat[line][k] = multiplicando pelos elemento da primeria linha por padrao
-            acc += mat[0][k] * val if (k & 1) == 0 else -(mat[0][k] * val) # acc += mat[0][k] * (-1) ** (2+k) * val
+            acc += mat[0][k] * val if (k & 1) == 0 else -(mat[0][k] * val)  # acc += mat[0][k] * (-1) ** (2+k) * val
     return acc
 
 
@@ -24,24 +24,13 @@ def reduce_sub_matrix(matrix, i):
 
 
 matrix = [
-    [
-        [1, -2]
-        , [1, 2]
-    ]
+    [[1, -2], [1, 2]]
+    , [[1, 2, 3], [1, -2, 3], [1, 2, -3]]
     , [
-        [1, 2, 3]
-        , [1, -2, 3]
-        , [1, 2, -3]
-    ]
-    , [
-        [1, 2, 3, 5]
-        , [1, -2, 3, 6]
-        , [1, 2, -3, 7]
-        , [1, 2, -3, -8]
+        [1, 2, 3, 5], [1, -2, 3, 6]
+        , [1, 2, -3, 7], [1, 2, -3, -8]
     ]
 ]
 
-print(laplace_method_cofactor(matrix[2]))
-
 if __name__ == '__main__':
-    pass
+    print(laplace_method_cofactor(matrix[2]))

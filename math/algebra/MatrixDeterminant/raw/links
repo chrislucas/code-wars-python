@@ -1,3 +1,9 @@
+Eliminacao de Gauss - Boa explicacao
+https://pt.wikipedia.org/wiki/Elimina%C3%A7%C3%A3o_de_Gauss
+https://pt.wikibooks.org/wiki/%C3%81lgebra_linear/Sistemas_de_equa%C3%A7%C3%B5es_lineares
+https://pt.wikipedia.org/wiki/Matriz_singular
+
+
 https://brasilescola.uol.com.br/matematica/regra-sarrus.htm
 http://mundoeducacao.bol.uol.com.br/matematica/regra-sarrus.htm
 
@@ -6,12 +12,36 @@ http://mundoeducacao.bol.uol.com.br/matematica/regra-chio-nos-calculos-dos-deter
 Determinante de uma Matriz n x n.
 https://www.youtube.com/watch?v=2v9g9Qe1mGw
 
+Rank matrix
+https://www.geeksforgeeks.org/program-for-rank-of-matrix/
+https://stattrek.com/matrix-algebra/matrix-rank.aspx
+
 
 Cofator
 https://pt.wikipedia.org/wiki/Cofator_(%C3%A1lgebra)
 
-Eliminacao de gauss e Metodo de cofatores
+Eliminacao de gauss e Metodo de cofatores - interessante
 http://prorum.com/index.php/3218/determinante-eliminacao-gaussiana-laplace-algoritmo-eficiente
 
 Métodos Iterativos para Sistemas Lineares
 https://www.math.tecnico.ulisboa.pt/~calves/courses/sis-it/capii22.html
+
+Gauss Elimination
+https://pt.wikipedia.org/wiki/Elimina%C3%A7%C3%A3o_de_Gauss
+https://www.ufrgs.br/reamat/AlgebraLinear/livro/s1-formas_escalonadas_e_formas_escalonadas_reduzidas.html
+https://en.wikipedia.org/wiki/Gaussian_elimination
+https://www.geeksforgeeks.org/gaussian-elimination/
+https://www.geeksforgeeks.org/program-for-gauss-jordan-elimination-method/
+
+Problems
+https://www.spoj.com/problems/BANDMATR/
+
+Tridiagonal matrix
+https://math.stackexchange.com/questions/266998/how-to-compute-the-determinant-of-a-tridiagonal-matrix-with-constant-diagonals
+
+
+Rank (linear algebra)
+https://en.wikipedia.org/wiki/Rank_(linear_algebra)
+
+
+https://www.geeksforgeeks.org/program-for-gauss-jordan-elimination-method/  
