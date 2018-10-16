@@ -9,24 +9,26 @@ http://prorum.com/index.php/3218/determinante-eliminacao-gaussiana-laplace-algor
 https://pt.wikipedia.org/wiki/Matriz_estritamente_diagonal_dominante
 '''
 
-def is_strict_diagonal_dominant(matrix):
-    lin = len(matrix)
-    col = len(matrix[0])
-    if lin != col:
-        return False
-    else:
-        for i in range(0, lin):
-            acc = 0
-            for j in range(0, col):
-                if i != j:
-                    acc += matrix[i][j]
-
-            if matrix[i][i] < acc:
-                return False
-    return True
 
 
 class GaussianElimination:
+
+    @staticmethod
+    def is_strict_diagonal_dominant(matrix):
+        lin = len(matrix)
+        col = len(matrix[0])
+        if lin != col:
+            return False
+        else:
+            for i in range(0, lin):
+                acc = 0
+                for j in range(0, col):
+                    if i != j:
+                        acc += matrix[i][j]
+
+                if matrix[i][i] < acc:
+                    return False
+        return True
 
     def apply(self, mat):
         ans = self._forward_elimination(mat)
@@ -125,7 +127,7 @@ class GaussianElimination:
 
 def test_strict_diagonal_dominant():
     matrix = [[[5, 1, 2], [2, 6, 3], [3, 4, 7]]]
-    print(is_strict_diagonal_dominant(matrix[0]))
+    print(GaussianElimination.is_strict_diagonal_dominant(matrix[0]))
 
 # https://www.mathsisfun.com/algebra/systems-linear-equations.html
 def test_gaussian_elimination():
@@ -138,7 +140,7 @@ def test_gaussian_elimination():
         , [[2, 1, -2, 3], [1, -1, -1, 0], [1, 1, 3, 12]]
         , [[1, 1, 3], [2, 2, 6]]
     ]
-    ans = ge.apply(mat[5])
+    ans = ge.apply(mat[0])
     if ans is None:
         print("Sistemas com infinitas solucoes")
     elif len(ans) == 0:
