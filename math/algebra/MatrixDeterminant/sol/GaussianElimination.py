@@ -9,7 +9,6 @@ http://prorum.com/index.php/3218/determinante-eliminacao-gaussiana-laplace-algor
 https://pt.wikipedia.org/wiki/Matriz_estritamente_diagonal_dominante
 '''
 
-
 def is_strict_diagonal_dominant(matrix):
     lin = len(matrix)
     col = len(matrix[0])
@@ -137,12 +136,13 @@ def test_gaussian_elimination():
         , [[2, 1, 5], [-1, 1, 2]]
         , [[1, 1, 6], [-3, 1, 2]]
         , [[2, 1, -2, 3], [1, -1, -1, 0], [1, 1, 3, 12]]
+        , [[1, 1, 3], [2, 2, 6]]
     ]
-    ans = ge.apply(mat[4])
+    ans = ge.apply(mat[5])
     if ans is None:
         print("Sistemas com infinitas solucoes")
     elif len(ans) == 0:
-        print("Sistema lienar inconsistente")
+        print("Sistema Linear inconsistente")
     else:
         print(ans)
 
