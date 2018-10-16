@@ -37,7 +37,7 @@ class GaussianElimination:
                 Se o lado direito da equacao tem o valor 0, esse sistema
                 tem infinitas solucoes, do contrario nao tem nenhuma
             '''
-            if mat[ans][len(mat[0])] == 0:
+            if mat[ans][len(mat[0])-1] == 0:
                 return []
             else:
                 return None
@@ -86,10 +86,10 @@ class GaussianElimination:
                 for l in range(i + 1, limit + 1):
                     # multiplicar os numeros da linha do pivo pelo fator
                     # alterar as linhas abaixo da linha do elemento pivo
-                    mat[k][l] -= mat[i][l] * f
+                    mat[k][l] = mat[k][l] - mat[i][l] * f
                 # zerar o elemento abaixo do pivo (diagonal principal)
-                #mat[k][i] = 0
-                mat[k][i] = mat[k][i] - f * mat[i][i]
+                mat[k][i] = 0
+                # mat[k][i] = mat[k][i] - f * mat[i][i]
         return -1
 
     @staticmethod
@@ -109,7 +109,7 @@ class GaussianElimination:
     def _back_substitution(reduced_echelon_form):
         limit = len(reduced_echelon_form[0]) - 1
         ans = [0] * limit
-        for i in range(limit-1, -1, -1):
+        for i in range(limit - 1, -1, -1):
             # lado direito da equacao linear
             ans[i] = reduced_echelon_form[i][limit]
             for j in range(i + 1, limit):
@@ -128,16 +128,17 @@ def test_strict_diagonal_dominant():
     matrix = [[[5, 1, 2], [2, 6, 3], [3, 4, 7]]]
     print(is_strict_diagonal_dominant(matrix[0]))
 
-
+# https://www.mathsisfun.com/algebra/systems-linear-equations.html
 def test_gaussian_elimination():
     ge = GaussianElimination()
-
     mat = [
         [[3.0, 2.0, -4.0, 3.0], [2.0, 3.0, 3.0, 15.0], [5.0, -3, 1.0, 14.0]]
         , [[2, 1, -3, -1], [-1, 3, 2, 12], [3, 1, -3, 0]]
+        , [[2, 1, 5], [-1, 1, 2]]
+        , [[1, 1, 6], [-3, 1, 2]]
+        , [[2, 1, -2, 3], [1, -1, -1, 0], [1, 1, 3, 12]]
     ]
-
-    ans = ge.apply(mat[0])
+    ans = ge.apply(mat[4])
     if ans is None:
         print("Sistemas com infinitas solucoes")
     elif len(ans) == 0:
