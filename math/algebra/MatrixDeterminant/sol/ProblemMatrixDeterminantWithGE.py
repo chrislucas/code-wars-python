@@ -3,28 +3,83 @@ https://www.codewars.com/kata/52a382ee44408cea2500074c/train/python
 '''
 
 
+def _swap_rows(mat, i, j):
+    for k in range(0, len(mat[0])):
+        temp = mat[i][k]
+        mat[i][k] = mat[j][k]
+        mat[j][k] = temp
+
 
 def determinant(mat):
     det = 1
-    limit_cols = len(mat[0])
-    limit_line = len(mat)
-    for i in range(0, limit_line):
-        for j in range(i + 1, limit_line):
+    limit = len(mat[0])
+    for i in range(0, limit):
+        g_idx = i
+        for j in range(i + 1, limit):
+            if abs(mat[j][i]) > abs(mat[g_idx][i]):
+                g_idx = j
+        if g_idx != i:
+            _swap_rows(mat, i, g_idx)
+            det = -det
+        for j in range(i + 1, limit):
             # calcular qual o fator que vamos usar para multiplicar a linha abaixo do pivo
             f = mat[j][i] / mat[i][i] if mat[i][i] != 0 else 0
-            for k in range(i + 1, limit_cols):
+            for k in range(i + 1, limit):
                 mat[j][k] = mat[j][k] - mat[i][k] * f
-            # zerando os elementos abaixo da diagonal principal
+            # zerando os elementos abaixo da diagonal principal mat[j][i] = mat[j][i] - mat[i][i] * f
             mat[j][i] = 0
         det *= mat[i][i]
-    return int(det)
+    return round(det)
 
 
-print(determinant([[1, 3], [2, 5]]))
-print(determinant([[2, 5, 3], [1, -2, -1], [1, 3, 4]]))
+matrix = [
+    [[3, 2, 1, 4, 0, 1]
+        , [1, 2, 3, 1, 9, 1]
+        , [0, 2, 1, 1, 9, 0]
+        , [8, 2, 1, 0, 2, 3]
+        , [2, 3, 4, 0, 1, 2]
+        , [2, 1, 0, 0, 1, 1]]
+    , [[2, 5, 3], [1, -2, -1], [1, 3, 4]]
+    , [[0, 2.6666666666666665, -4.666666666666666]
+        , [0, 0, -9.916666666666668]
+        , [0, 0, 0]]
+    , [[1, 3], [2, 5]]
+    , [[2, 4, 5, 3, 1, 2]
+        , [2, 4, 7, 5, 3, 2]
+        , [1, 1, 0, 2, 3, 1]
+        , [1, 3, 9, 0, 3, 2]
+        , [1, 1, 2, 2, 4, 1]
+        , [0, 0, 4, 1, 2, 3]]
+    ,[[-3, 2, -5], [10, -3, 0], [-9, 3, 3]]
+    , [[-8, -4, 5, -10, 7, 2]
+        , [0, 3, -1, -5, 2, 2]
+        , [2, 8, 4, -2, -6, -2]
+        , [-1, 3, -6, -6, -8, -3]
+        , [-2, -5, -3, 10, -1, -9]
+        , [-7, 3, -4, -4, 1, 10]]
+    , [[3, -8, -7], [4, 9, 10], [7, 9, 5]]
+    , [[-11.857142857142858, -9.142857142857142], [0, 4.168674698795181]]
+    , [[-5, -5, 2, -2, -9, 7, -7, -6]
+        , [-2, -8, -8, 4, 10, -7, -7, 5]
+        , [-8, 10, 3, 9, -8, -5, 4, -7]
+        , [3, 2, -2, 2, -5, 9, 7, 2]
+        , [4, 1, 2, 0, -7, 1, -9, -6]
+        , [-2, 9, 8, -6, 0, 10, 3, 2]
+        , [1, 6, 4, 4, 6, 9, 7, -8]
+        , [8, 4, 3, -9, 1, 1, 2, -2]]
+    , [[6, 5, 0, 4], [-9, 0, 1, 2], [8, 3, -1, 9], [4, -3, 8, 5]]
+    , [[-9, -2, 0, 9, 9, 0, 1]
+        , [-7, 5, -9, 6, -1, 5, -9]
+        , [6, -8, -6, -8, 5, 4, -7]
+        , [3, -10, -9, 9, 2, 7, 3]
+        , [-2, 0, 7, -4, -2, 9, 7]
+        , [-9, -7, -2, 6, -4, -2, -9]
+        , [9, 9, -7, 6, -8, 6, -10]]
+    , [[10, -5], [9, 4]]
+    , [[7, -10, -1, 2], [1, -3, 5, -3], [-1, 10, 7, -10], [-4, 7, 6, -3]]
+]
 
-
-print(determinant([[0, 2.6666666666666665, -4.666666666666666], [0, 0, -9.916666666666668], [0, 0, 0]]))
+print(determinant(matrix[4]))
 
 if __name__ == '__main__':
     pass
