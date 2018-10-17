@@ -10,7 +10,6 @@ https://pt.wikipedia.org/wiki/Matriz_estritamente_diagonal_dominante
 '''
 
 
-
 class GaussianElimination:
 
     @staticmethod
@@ -38,7 +37,7 @@ class GaussianElimination:
                 Se o lado direito da equacao tem o valor 0, esse sistema
                 tem infinitas solucoes, do contrario nao tem nenhuma
             '''
-            if mat[ans][len(mat[0])-1] == 0:
+            if mat[ans][len(mat[0]) - 1] == 0:
                 return []
             else:
                 return None
@@ -128,6 +127,7 @@ class GaussianElimination:
 def test_strict_diagonal_dominant():
     matrix = [[[5, 1, 2], [2, 6, 3], [3, 4, 7]]]
     print(GaussianElimination.is_strict_diagonal_dominant(matrix[0]))
+
 
 # https://www.mathsisfun.com/algebra/systems-linear-equations.html
 def test_gaussian_elimination():
